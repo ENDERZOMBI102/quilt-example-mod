@@ -13,7 +13,7 @@
 			"issues": "https://gihub.com/ENDERZOMBI102/quilt-example-mod/issues"
 		},
 
-		"license": "MIT",
+		"license": "CC0",
 		"icon": "assets/examplemod/icon.png",
 		"intermediate_mappings": "net.fabricmc:intermediary",
 
