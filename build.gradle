@@ -8,6 +8,7 @@ version = rootProject.version
 archivesBaseName = archives_base_name
 
 repositories {
+	maven { url 'https://maven.terraformersmc.com/releases/' }
 	maven { url 'https://maven.quiltmc.org/repository/release' }
 	maven {
 		url 'https://maven.quiltmc.org/repository/snapshot'
