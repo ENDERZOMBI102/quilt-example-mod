@@ -7,10 +7,10 @@
 
 		"name": "Example Mod",
 		"description": "An awesome template",
-		"authors": [ "You" ],
+		"authors": { "You": "Owner" },
 		"contact": {
-			"sources": "https://gihub.com/ENDERZOMBI102/quilt-example-mod",
-			"issues": "https://gihub.com/ENDERZOMBI102/quilt-example-mod/issues"
+			"sources": "https://github.com/ENDERZOMBI102/quilt-example-mod",
+			"issues": "https://github.com/ENDERZOMBI102/quilt-example-mod/issues"
 		},
 
 		"license": "CC0",
@@ -26,19 +26,19 @@
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"version": "${loader_version}"
+				"versions": "${loader_version}"
 			},
 			{
 				"id": "quilt_base",
-				"version": "*"
+				"versions": "*"
 			},
 			{
 				"id": "minecraft",
-				"version": ">=${minecraft_version}"
+				"versions": ">=${minecraft_version}"
 			},
 			{
 				"id": "java",
-				"version": ">=17"
+				"versions": ">=17"
 			}
 		]
 	},
